@@ -1,13 +1,11 @@
 /**
  * @return {Function}
  */
-var createHelloWorld = function () {
+
+var createHelloWorld =  () => {
   return function (...args) {
     return 'Hello World'
   }
 }
 
-/**
- * const f = createHelloWorld();
- * f(); // "Hello World"
- */
+createHelloWorld('hihi')
