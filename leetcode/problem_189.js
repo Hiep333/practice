@@ -18,4 +18,4 @@ const originalArray = [1, 2, 3, 4, 5, 6, 7]
 const k = 3
 const rotatedResult = rotate(originalArray, k)
 
-console.log(rotatedResult) // [6, 7, 1, 2, 3, 4, 5]
+console.log(rotatedResult) // [6, 7, 1, 2, 3, 4]
