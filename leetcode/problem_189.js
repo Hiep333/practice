@@ -9,7 +9,7 @@ var rotate = function (nums, k) {
   const rotatedArray = lastTwoElements.concat(remainingElements)
 
   for (let i = 0; i < nums.length; i++) {
-    nums[i] = rotatedArray[i];
+    nums[i] = rotatedArray[i]
   }
   return nums
 }
